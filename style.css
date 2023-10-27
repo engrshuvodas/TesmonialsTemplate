@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+    margin: 100px 0;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contain {
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+}
+
+.item {
+    align-items: center;
+    /* background-color: tomato; */
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+
+#right-block .person-image {
+    width: 294px;
+
+    
+}
+
+#right-block .person-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.fancy-shadow {
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+}
+
+.quote-img img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100px!important;
+}
+
+.owl-theme .owl-nav {
+    /* margin-top: 10px; */
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    right: 283px;
+    bottom: 111px;
+    background: #ffff;
+    padding: 0 28px;
+    border-radius: 21px;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .owl-theme .owl-nav{
+        display: none;
+    }
+
+}

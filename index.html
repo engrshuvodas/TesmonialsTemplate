@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="contain">
+        <div id="owl-carousel" class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="text-slider">
+                            <div class="quote-img">
+                                <img src="./images/pattern-quotes.svg">
+                            </div>
+                            <h3>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reprehenderit sequi
+                                consequuntur voluptatibus recusandae 
+                            </h3>
+                            <div class="wave-img">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,58.7C384,53,480,75,576,117.3C672,160,768,224,864,218.7C960,213,1056,139,1152,144C1248,149,1344,235,1392,277.3L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="right-image" id="right-block" style="position: relative;">
+                            <img src="./images/image-john.jpg"  class="person-image fancy-shadow ">
+                            <img src="./images/pattern-bg.svg" class="person-bg" style="position: absolute;">
+                        </div>
+                    </div>
+                </div>
+       
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="text-slider">
+                            <div class="quote-img">
+                                <img src="./images/pattern-quotes.svg">
+                            </div>
+                            <h3>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas reprehenderit sequi
+                                consequuntur voluptatibus recusandae 
+                            </h3>
+                            <div class="wave-img">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,128L48,112C96,96,192,64,288,58.7C384,53,480,75,576,117.3C672,160,768,224,864,218.7C960,213,1056,139,1152,144C1248,149,1344,235,1392,277.3L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="right-image" id="right-block" style="position: relative;">
+                            <img src="./images/image-tanya.jpg"  class="person-image fancy-shadow ">
+                            <img src="./images/pattern-bg.svg" class="person-bg" style="position: absolute;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="./dist/owl.carousel.js"></script>
+
+
+    <script>
+        $('#owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            dots: true,
+            nav: true,
+            items: 1,
+        })
+    </script>
+</body>
+
+</html>
